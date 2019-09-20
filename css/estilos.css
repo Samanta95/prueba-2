@@ -1,0 +1,32 @@
+*{
+   box-sizing: border-box;
+}
+.container{
+  max-width: 1170px;
+  width: 100%;
+  height:auto;
+  display: block;
+  margin: 0 auto;
+}
+body{
+  margin: 0;
+}
+header{
+  background-color: #1b1b1b;
+  color:white;
+}
+header i{
+  cursor: pointer;
+}
+header .logo{
+  display: contents;
+}
+.center{
+  text-align: center;
+}
+.right{
+  text-align: right;
+}
+header .row{
+  align-items: center;
+}
