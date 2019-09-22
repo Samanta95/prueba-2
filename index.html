@@ -11,29 +11,153 @@
     <title>IVANO</title>
   </head>
   <body>
+    <!--aqui inicia el header -->
     <header>
-      <div class="container">
+      <div class="contenedor">
         <div class="row">
-          <div class="col-sm">
-            <i class="material-icons">menu</i>
+          <div class="col logo">
+            <img src="img/logo.png" alt="logo">
           </div>
-          <div class="col-sm logo">
-            <h2>IVANO</h2>
-          </div>
-          <div class="col-sm right">
+          <div class="col right">
             <i class="material-icons">shopping_cart</i>
             <i class="material-icons">search</i>
           </div>
         </div>
       </div>
     </header>
-    <section>
-      <div class="container">
+    <nav role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          <a href="#"><li>Accesorios</li></a>
+          <a href="#"><li>Zapatillas Dama</li></a>
+          <a href="#"><li>Zapatillas Caballero</li></a>
+        </ul>
+      </div>
+    </nav>
+    <!--aqui termina el header -->
+
+    <!--aqui inicia el banner principal -->
+    <section class="banner">
+      <!--figuras que aprecen en el fondo -->
+      <div class="cuarto-circulo"></div>
+      <div class="triangulo"></div>
+      <!--figuras que aprecen en el fondo -->
+      <div class="contenedor">
+        <!--Sliders del banner principal -->
         <div class="slider-principal">
-          
+
+          <div class="item">
+            <div class="row">
+              <div class="col">
+                <div class="imagen">
+                  <img src="img/zapatilla-1.png" alt="zapatilla">
+                </div>
+              </div>
+              <div class="col">
+                <div class="texto">
+                  <h3>Zaptatilla Skater</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <button type="button" name="button" class="btn-cta">COMPRAR</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="row">
+              <div class="col">
+                <div class="imagen">
+                  <img src="img/zapatilla-2.png" alt="zapatilla">
+                </div>
+              </div>
+              <div class="col">
+                <div class="texto">
+                  <h3>Zaptatilla Skater</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <button type="button" name="button" class="btn-cta">COMPRAR</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="row">
+              <div class="col">
+                <div class="imagen">
+                  <img src="img/zapatilla-3.png" alt="zapatilla">
+                </div>
+              </div>
+              <div class="col">
+                <div class="texto">
+                  <h3>Zaptatilla Skater</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <button type="button" name="button" class="btn-cta">COMPRAR</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  <!--Sliders del banner principal -->
+        <div class="redes-sociales">
+          <ul>
+            <li class="facebook "><a href="#"><img src="img/facebook-b.png" alt=""></a></li>
+            <li class="twitter "><a href="#"><img src="img/twitter-b.png" alt=""></a></li>
+            <li class="instagram "><a href="#"><img src="img/instagram-b.png" alt=""></a></li>
+          </ul>
         </div>
       </div>
     </section>
+    <section class="zapatilla-calidad">
+      <div class="contenedor">
+        <div class="row">
+          <div class="col">
+            <div class="texto">
+              <ul>
+                <h2>La mejor calidad</h2>
+                <li><i class="material-icons">check</i><h3>Mayor resistencia</h3></li>
+                <li><i class="material-icons">check</i><h3>Mejor calidad</h3></li>
+                <button type="button" name="button" class="btn-cta">VER MÁS</button>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="imagen">
+              <img src="img/zapatilla-4.png" alt="zapatilla">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Slider 2 con pequeño catalogo de zapatillas -->
+    <section class="zapatilla-calidad">
+      <div class="contenedor">
+        <div class="row">
+          <div class="col">
+            <div class="slider-catalogo">
+                <div class=""><img src="img/zapatilla-5.png" alt="zapatilla"></div>
+                <div class=""><img src="img/zapatilla-6.png" alt="zapatilla"></div>
+
+            </div>
+          </div>
+          <div class="col">
+            <div class="texto">
+              <ul>
+                <h2>La mejor calidad</h2>
+                <li><i class="material-icons">check</i><h3>Mayor resistencia</h3></li>
+                <li><i class="material-icons">check</i><h3>Mejor calidad</h3></li>
+                <button type="button" name="button" class="btn-cta">VER MÁS</button>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Slider 2 con pequeño catalogo de zapatillas -->
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
