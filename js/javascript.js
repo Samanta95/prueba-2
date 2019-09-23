@@ -19,7 +19,7 @@ $('.slider-catalogo').slick({
   autoplaySpeed: 3000,
   responsive: [
     {
-      breakpoint: 1366,
+      breakpoint: 1240,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
