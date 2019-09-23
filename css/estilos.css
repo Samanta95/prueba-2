@@ -178,7 +178,7 @@ header .row{
 /*figuras del fondo*/
 
 .btn-cta{
-  background-color: #d50000;
+  background-color: #5f0404;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -187,6 +187,7 @@ header .row{
 .slider-principal{
   padding-top: 50px;
 }
+/*Flechas slider*/
 .slider-principal .slick-prev {
     left: 0px;
     z-index: 1;
@@ -219,6 +220,7 @@ header .row{
     display: block !important;
     z-index: 0;
 }
+/*Flechas slider*/
 .texto ul{
   list-style: none;
 }
@@ -228,8 +230,79 @@ header .row{
 .texto h3{
   font-weight: lighter;
 }
-
-.zapatilla-calidad .col{
+.zapatilla-caracteristicas{
+  padding: 50px 0;
+}
+.zapatilla-caracteristicas .col{
   display: flex;
   align-items: center;
+}
+.slider-catalogo{
+  padding:50px 0;
+  text-align: center;
+  background-color:  white;
+}
+.slider-catalogo h2{
+  padding-bottom: 50px;
+  color:#5f0404;
+
+}
+.slider img{
+  margin: 0 auto;
+}
+.slider .slick-prev {
+    left: 0px;
+    z-index: 1;
+    width: 28px;
+    height: 30px;
+    bottom:0;
+    background-image: url(../img/arrow-left.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    display: block !important;
+    z-index: 0;
+}
+.slider .slick-next::before{
+  display: none;
+}
+.slider .slick-prev::before{
+  display: none;
+}
+.slider .slick-next {
+    right: 0px;
+    z-index: 1;
+    width: 28px;
+    height: 30px;
+    bottom:0;
+    background-image: url(../img/arrow-right.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    display: block !important;
+    z-index: 0;
+}
+.tiendas {
+    background-color: rgba(0,0,0,0.5);
+    background-image: url(../img/tiendas.jpg);
+    height: 534px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    width: 800px;
+    margin: 0 auto;
+    filter: brightness(0.4);
+}
+.ver-tiendas{
+  background-color: #1b1b1b
+}
+.ver-tiendas .btn-tienda{
+  position: absolute;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  top: 53%;
+  left: 46%;
+  padding: 20px 30px;
+  font-weight: bold;
+  display: flex;
 }

@@ -12,16 +12,16 @@ $('.slider-principal').slick({
 });
 
 
-$('.slider-catalogo').slick({
+$('.slider').slick({
   dots: true,
   infinite: true,
-  speed: 500,
-  fade: true,
-  cssEase: 'linear',
+  speed: 100,
+  slidesToShow: 2,
+  adaptiveHeight: true,
   autoplay: true,
-  autoplaySpeed: 2000
-});
+  autoplaySpeed: 3000,
 
+});
 
 /*
   Slidemenu
